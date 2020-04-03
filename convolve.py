@@ -12,3 +12,4 @@ def convlove2D(x, w):
             Y[i:i + m1, j:j+m1] += x[i,j]*w
     print "elapsed time:", (datetime.now() - t0)
     return Y
+
