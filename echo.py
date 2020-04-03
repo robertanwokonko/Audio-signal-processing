@@ -7,6 +7,8 @@ from scipy.io.wavfile import write
 from scipy.io import wavfile
 
 """
+Showing the use of convolution:
+
 Convolution of an echo filter with a signal
 """
 
