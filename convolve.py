@@ -2,6 +2,9 @@ from datetime import datetime
 import numpy as np
 
 def convlove2D(x, w):
+    '''
+    Applying the convolution operation to a 2D vector
+    '''
     t0 = datetime.now()
     n1, n2 = x.shape()
     m1, m2 = w.shape()
