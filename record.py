@@ -39,7 +39,7 @@ class RecordAudio(object):
         print('recording...')
         self.record_voice = sd.rec(int(self.RECORD_SECONDS * self.RATE), samplerate= self.RATE, channels=self.CHANNELS)
         sd.wait()
-        write('/Users/rob/Workspace/Audio-Classification/ioutput.wav', self.RATE, self.record_voice)
+        write('/Users../output.wav', self.RATE, self.record_voice)
 
 
     # def playback(self):
