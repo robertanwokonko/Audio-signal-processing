@@ -14,7 +14,7 @@ n = np.arange(0, t, 1/Fs)
 f = 10
 x = np.sin(2*pi*f*n)
 
-# Generate noisy signal, if you increase the variance is increases the noise
+# Generate noisy signal, if you increase the variance this increases the noise
 y = np.random.normal(0, 0.2, np.size(x)) #AWGN: Additive white Gaussian noise (AWGN) is a basic noise model used in information theory to mimic the effect of many random processes that occur in nature. 
                                          #The modifiers denote specific characteristics: Additive because it is added to any noise that might be intrinsic to the information system
 x = x+y 
