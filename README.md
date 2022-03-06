@@ -1,3 +1,3 @@
 # Audio-signal-processing
 
-The scripts in this repo show functions that can be used during Audio processing and voice model robustness.
+These are methods written to show a basic convolution method, noise cancellation methods and in general be used for voice model robustness.
