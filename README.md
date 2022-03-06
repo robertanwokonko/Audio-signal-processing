@@ -1,3 +1,3 @@
 # Audio-signal-processing
 
-Functions that are used in Audio processing and voice model robustness.
+The scripts in this repo show functions that can be used during Audio processing and voice model robustness.
